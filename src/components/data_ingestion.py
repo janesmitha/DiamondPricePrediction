@@ -10,7 +10,7 @@ from src.components.data_transformation import DataTransformation
 
 
 ## Intitialize the Data Ingetion Configuration
-
+ 
 @dataclass
 class DataIngestionconfig:
     train_data_path:str=os.path.join('artifacts','train.csv')
